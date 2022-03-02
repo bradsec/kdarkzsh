@@ -1,5 +1,4 @@
-# terminal
-MacOS and Debian ZSH configuration and dotfiles
+# MacOS and Debian ZSH configuration and dotfiles
 
 ## MacOS Usage
 > kdark.terminal colour scheme combined with the kdark.zshrc for a zsh prompt and appearance in MacOS terminal similar to Kali linux.  
