@@ -21,14 +21,20 @@ brew install zsh-syntax-highlighting
 brew install zsh-autosuggestions
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+
+source ~/.zshrc
 ```
 ## Debian Console Usage (No xDesktop)
 Install zsh shell, zsh-syntax-highlighting and zsh-autosuggestions
-```
+```sh
 sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
+
 chsh -s $(which zsh)
 ```
 - Download `debian.zshrc` and rename as `.zshrc` in the user home path `~/.zshrc`.  
+```sh
+source ~/.zshrc
+```
 #### Change console font
 `sudo dpkg-reconfigure console-setup` try `TerminusBold` `10x20`
 
