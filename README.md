@@ -9,11 +9,13 @@ kdark.terminal color scheme combined with the kdark.zshrc for a terminal zsh pro
 
 `kdark.zshrc` copy and rename as `.zshrc` in the user home path `~/.zshrc`.
 
-#### `.zshrc` uses `zsh-syntax-highlighting` and `zsh-autosuggestions.zsh`.
+#### `.zshrc` uses `zsh-syntax-highlighting`, `zsh-autosuggestions.zsh` and `Fira Code font`.
 
 These can be installed manually or using Homebrew:
 
-`brew install zsh-syntax-highlighting`
-
-`brew install zsh-autosuggestions`
-
+```
+brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+```
