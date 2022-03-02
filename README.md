@@ -7,10 +7,10 @@ MacOS and Linux Terminal related files and dotfiles
 ![kdark.terminal](/previewmacos.png)
 
 `kdark.terminal` is a colour scheme for the default MacOS terminal application.  
-- Download `kdark.terminal` and open to import. 
+- Download [kdark.terminal](https://github.com/bradsec/terminal/blob/main/kdark.terminal) and open to import. 
   - Alternatively open the terminal.app and go into the preferences and import the kdark.terminal color scheme. 
 - Make the imported colour scheme the Default.  
-- Download `kdark.zshrc` and rename as `.zshrc` in the user home path `~/.zshrc`.  
+- Download [kdark.zshrc](https://github.com/bradsec/terminal/blob/main/kdark.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
 
 #### `.zshrc` uses `zsh-syntax-highlighting`, `zsh-autosuggestions` and `Fira Code font`.
 
@@ -31,7 +31,7 @@ sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
 
 chsh -s $(which zsh)
 ```
-- Download `debian.zshrc` and rename as `.zshrc` in the user home path `~/.zshrc`.  
+- Download [debian.zshrc](https://github.com/bradsec/terminal/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
 ```sh
 source ~/.zshrc
 ```
