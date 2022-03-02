@@ -40,6 +40,7 @@ ps -p $$
 
 - Download [debian.zshrc](https://github.com/bradsec/zsh/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
 - Logout or reload the .zshrc by running `source ~/.zshrc`  
+  - Sometimes `source .zshrc` does not cause shell changes to take affect. In this case logout and log back in.  
 
 #### Change console font
 `sudo dpkg-reconfigure console-setup` try `TerminusBold` `10x20`
