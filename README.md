@@ -2,7 +2,7 @@
 MacOS and Linux Terminal related files and dotfiles
 
 ## MacOS Usage
-> kdark.terminal color scheme combined with the kdark.zshrc for a terminal zsh prompt and appearance in MacOS similar to Kali linux.  
+> kdark.terminal color scheme combined with the kdark.zshrc for a zsh prompt and appearance in MacOS terminal similar to Kali linux.  
 
 ![kdark.terminal](/previewmacos.png)
 
