@@ -27,9 +27,7 @@ brew install --cask font-fira-code
 ## Debian Console Usage (No xDesktop)
 Install zsh shell, zsh-syntax-highlighting and zsh-autosuggestions
 ```sh
-sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
-
-chsh -s $(which zsh)
+sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions && chsh -s $(which zsh)
 ```
 - Download [debian.zshrc](https://github.com/bradsec/zsh/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
 - Logout or reload the .zshrc by running `source ~/.zshrc`  
