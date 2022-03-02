@@ -33,9 +33,8 @@ sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
 chsh -s $(which zsh)
 ```
 - Download [debian.zshrc](https://github.com/bradsec/zsh/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
-```sh
-source ~/.zshrc
-```
+- Logout or reload the .zshrc by running `source ~/.zshrc`  
+
 #### Change console font
 `sudo dpkg-reconfigure console-setup` try `TerminusBold` `10x20`
 
