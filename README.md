@@ -25,21 +25,23 @@ brew install --cask font-fira-code
 
 
 ## Debian Console Usage (No xDesktop)
-Install zsh shell, zsh-syntax-highlighting and zsh-autosuggestions
+1. Install zsh shell, zsh-syntax-highlighting and zsh-autosuggestions
 ```sh
 sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
 ```
-Change default user shell to zsh (don't use sudo)  
+2. Change default user shell to zsh (don't use sudo)  
 ```sh
 chsh -s $(which zsh)
 ```
-Check current user shell
+3. Check current user shell
 ```sh
 ps -p $$
 ```
-
-- Download [debian.zshrc](https://github.com/bradsec/zsh/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
-- Logout or reload the .zshrc by running `source ~/.zshrc`  
+4. Download [debian.zshrc](https://github.com/bradsec/zsh/blob/main/debian.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
+```sh
+wget -O ~/.zshrc https://raw.githubusercontent.com/bradsec/zsh/main/debian.zshrc
+```
+5. Logout or reload the .zshrc by running `source ~/.zshrc`  
   - Sometimes `source .zshrc` does not cause shell changes to take affect. In this case logout and log back in.  
 
 #### Change console font
