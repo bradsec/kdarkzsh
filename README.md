@@ -26,6 +26,7 @@ brew install --cask font-fira-code
 Install zsh shell, zsh-syntax-highlighting and zsh-autosuggestions
 ```
 sudo apt -y install zsh zsh-syntax-highlighting zsh-autosuggestions
+chsh -s $(which zsh)
 ```
 - Download `debian.zshrc` and rename as `.zshrc` in the user home path `~/.zshrc`.  
 #### Change console font
