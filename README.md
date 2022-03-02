@@ -2,13 +2,15 @@
 MacOS and Linux Terminal related files and dotfiles
 
 ## MacOS Usage
-> kdark.terminal color scheme combined with the kdark.zshrc for a zsh prompt and appearance in MacOS terminal similar to Kali linux.  
+> kdark.terminal colour scheme combined with the kdark.zshrc for a zsh prompt and appearance in MacOS terminal similar to Kali linux.  
 
 ![kdark.terminal](/previewmacos.png)
 
-`kdark.terminal` is a color scheme for the default MacOS terminal application. Download `kdark.terminal` and open to import. Alternative open terminal.app and go into the preferences and import the kdark.terminal color scheme.
-
-`kdark.zshrc` copy and rename as `.zshrc` in the user home path `~/.zshrc`.
+`kdark.terminal` is a colour scheme for the default MacOS terminal application.  
+- Download `kdark.terminal` and open to import. 
+  - Alternatively open the terminal.app and go into the preferences and import the kdark.terminal color scheme. 
+- Make the imported colour scheme the Default.  
+- Download `kdark.zshrc` and rename as `.zshrc` in the user home path `~/.zshrc`.  
 
 #### `.zshrc` uses `zsh-syntax-highlighting`, `zsh-autosuggestions.zsh` and `Fira Code font`.
 
