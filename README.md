@@ -45,6 +45,30 @@ wget -O ~/.zshrc https://raw.githubusercontent.com/bradsec/zsh/main/debian.zshrc
   - Sometimes `source .zshrc` does not cause shell changes to take affect. In this case logout and log back in.  
 
 #### Change console font
-`sudo dpkg-reconfigure console-setup` try `TerminusBold` `10x20`
+Manually change by running the following command:  
+```sh
+`sudo dpkg-reconfigure console-setup`
+```
+- Try TerminusBold 10x18  
+
+Quick change:
+```sh
+sudo tee /etc/default/console-setup <<'EOF'
+# CONFIGURATION FILE FOR SETUPCON
+
+# Consult the console-setup(5) manual page.
+
+ACTIVE_CONSOLES="/dev/tty[1-6]"
+
+CHARMAP="UTF-8"
+
+CODESET="guess"
+FONTFACE="TerminusBold"
+FONTSIZE="10x18"
+
+VIDEOMODE=
+
+EOF
+```
 
 ![debian.console](/previewdebian.png)
