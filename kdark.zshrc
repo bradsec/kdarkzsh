@@ -175,7 +175,7 @@ precmd() {
 # enable auto-suggestions based on the history
 if [ -f /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     . /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg=240,underline
+    ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=fg='240,underline'
 fi
 
 # enable command-not-found if installed
