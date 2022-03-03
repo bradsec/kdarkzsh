@@ -5,7 +5,8 @@
 
 ![kdark.terminal](/previewmacos.png)
 
-#### `.zshrc` uses `zsh-syntax-highlighting`, `zsh-autosuggestions` and `Fira Code font`.
+#### Requirements for theme and .zshrc 
+`zsh-syntax-highlighting`, `zsh-autosuggestions` and `Fira Code font`.
 
 These can be installed manually or using Homebrew:
 
@@ -21,6 +22,9 @@ brew install --cask font-fira-code
   - Alternatively open the terminal.app and go into the preferences and import the kdark.terminal color scheme. 
 - Make the imported colour scheme the Default.  
 - Download [kdark.zshrc](https://github.com/bradsec/zsh/blob/main/kdark.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
+```sh
+wget -O ~/.zshrc https://raw.githubusercontent.com/bradsec/zsh/main/kdark.zshrc
+```
 - Logout or reload the .zshrc by running `source ~/.zshrc`
 
 
