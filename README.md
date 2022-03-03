@@ -18,7 +18,8 @@ brew install --cask font-fira-code
 ```
 `kdark.terminal` is a colour theme for the default MacOS terminal application. 
 
-- Download [kdark.terminal](https://github.com/bradsec/zsh/blob/main/kdark.terminal) and open to import. 
+- Download [kdark.terminal](https://github.com/bradsec/zsh/blob/main/kdark.terminal).
+- Double click on kdark.terminal file. It will open a new Terminal window with the kdark color theme. This theme will also now be in the Preferences themes.
   - Alternatively open the terminal.app and go into the preferences and import the kdark.terminal color scheme. 
 - Make the imported colour scheme the Default.  
 - Download [kdark.zshrc](https://github.com/bradsec/zsh/blob/main/kdark.zshrc) and rename as `.zshrc` in the user home path `~/.zshrc`.  
