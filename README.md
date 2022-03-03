@@ -54,7 +54,7 @@ Manually change by running the following command:
 ```sh
 `sudo dpkg-reconfigure console-setup`
 ```
-- Try TerminusBold 10x18  
+- Try TerminusBold 10x18 or VGA 8x16
 
 Quick change:
 ```sh
@@ -72,7 +72,24 @@ FONTFACE="TerminusBold"
 FONTSIZE="10x18"
 
 VIDEOMODE=
+EOF
+```
+Alternative VGA font
+```sh
+sudo tee /etc/default/console-setup <<'EOF'
+# CONFIGURATION FILE FOR SETUPCON
 
+# Consult the console-setup(5) manual page.
+
+ACTIVE_CONSOLES="/dev/tty[1-6]"
+
+CHARMAP="UTF-8"
+
+CODESET="guess"
+FONTFACE="VGA"
+FONTSIZE="8x16"
+
+VIDEOMODE=
 EOF
 ```
 
